@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "php-apache-dev", "php-apache-dev\php-apache-dev.csproj", "{146E10C2-A10A-43E4-B10E-B626FCEC6E0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{146E10C2-A10A-43E4-B10E-B626FCEC6E0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{146E10C2-A10A-43E4-B10E-B626FCEC6E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{146E10C2-A10A-43E4-B10E-B626FCEC6E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{146E10C2-A10A-43E4-B10E-B626FCEC6E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6E094DA-8793-426E-912E-B62B7AD2B2FD}
+	EndGlobalSection
+EndGlobal

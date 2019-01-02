@@ -65,11 +65,8 @@ namespace php_apache_dev
         }
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (WindowState != FormWindowState.Minimized)
-            {
-                WindowState = FormWindowState.Minimized;
-                this.ShowInTaskbar = false;
-            }            
+            this.Hide();
+            this.ShowInTaskbar = false;         
             e.Cancel = true;
         }
         private void InitPath()
@@ -108,22 +105,16 @@ namespace php_apache_dev
         }
         private void notifyIcon1_DoubleClick(object sender, EventArgs e)
         {
-            if (WindowState == FormWindowState.Minimized)
-            {
-                WindowState = FormWindowState.Normal;
-                this.ShowInTaskbar = true;
-            }
+            this.Show();
+            this.ShowInTaskbar = true;
         }
         #endregion
 
         #region ui
         private void TsConsole_Click(object sender, EventArgs e)
         {
-            if (WindowState == FormWindowState.Minimized)
-            {
-                this.ShowInTaskbar = true;
-                WindowState = FormWindowState.Normal;
-            }
+            this.ShowInTaskbar = true;
+            this.Show();
         }
 
         private void TsQuit_Click(object sender, EventArgs e)

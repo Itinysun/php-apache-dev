@@ -34,6 +34,9 @@
   <PropertyGroup>
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>apache_64px_540327_easyicon.net.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -131,6 +134,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\right_32px_1113456_easyicon.net.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="apache_128px_540327_easyicon.net.ico" />
+    <Content Include="apache_64px_540327_easyicon.net.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
